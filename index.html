@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck</title>
+    <script type="text/javascript" src="matrix_m4.js"></script>
+    <script type="text/javascript" src="parsing_mtl.js"></script>
+    <script type="text/javascript" src="parsing_obj.js"></script>
+    <script type="text/javascript" src="rendering_util.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        canvas {
+            width: 100%; /* Full width */
+            height: 70vh; 
+        }
+
+        .gradient {
+            font-size: 2.5rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, black, black);
+            -webkit-background-clip: text;
+            color: transparent; 
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body onload="main()">
+    <div class="gradient">Tugas WEB GL - Yoga Firman Syahputra (5025221212) </div>
+    <canvas id="canvas">
+        <!-- Canvas fallback content if WebGL is not supported -->
+    </canvas>
+</body>
+</html>
